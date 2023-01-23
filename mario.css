@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(165, 226, 246);
+}
+img{
+    width: 7rem;
+    border: 2pt;
+    background-color: rgb(28, 169, 37);
+    border-color: black;
+    border-style: dotted;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2em 0 2em 0;
+}
+.worth{
+    font-weight: bold;
+}
+#total{
+    text-align: center;
+}
+footer{
+    justify-content: space-around;
+    display: flex;
+    font-size: larger;
+}
+small{
+    background-color: rgb(255, 67, 57)
+}
